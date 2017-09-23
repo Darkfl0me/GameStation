@@ -5,35 +5,42 @@
 	<meta charset = "UTF-8">
 	<title>Game_Connection</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel = "stylesheet" type = "text/css" href="Game_Connection.css" />
+	<link rel="stylesheet" type="text/css" href="Game_Connection.css">
 
 	</head>
 
 	<body>
 
-	<header class="one">
-
-		<h1 class="heading">GameClub</h1>
-		<form class="form-group">
-			<input class="search-bar" type="text" placeholder="Search Games">
-			<button class="srch-submit" type="submit" name="submit">
-				<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
-			</button>
-		</form>
-	<!-- <p>In Game_Connection you can enjoy the greatest gaming platform and you can also play with multiplayers facilities.Not only this but also you will be able to chat with the competators.You can also Share your moments in social networks also.Hope you're going to enjoy it.</p> -->
-
+	<header class="flex-container">
+		<div class="topbar">
+			<h1 class="heading">GAMESTATION</h1>
+			<form class="input-group col-xs-2 search-bar">
+				<input class="form-control" type="text" size="5" autocomplete="off" placeholder="Search Games">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="submit" name="submit">
+						<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+					</button>
+				</span>
+			</form>
+		</div>
+		<div>
+			<ul class="navbar">
+  		`		<li><a href="#home"><i class="glyphicon glyphicon-home"></i>Home</a></li>
+  				<li><a href="#news">Action</a></li>
+  				<li><a href="#contact">Multiplayer</a></li>
+  				<li><a href="#about">More</a></li>
+			</ul>
+		</div>
 	</header>
-
-	<ul>
-  		<li><a class="active" href="#home"><i class="glyphicon glyphicon-home" style="color: white;"></i>Home</a></li>
-  		<li><a href="#news">Action</a></li>
-  		<li><a href="#contact">Multiplayer</a></li>
-  		<li><a href="#about">More</a></li>
-	</ul>
-
-	<div>
-
-	</div>
+	
+	<section id="entries">
+		<article class="entry">
+			<a href="#PLAY">
+				<img src="lost.png"/>
+				<h3>LOST PIXEL</h3>
+			</a>
+		</article>
+	</section>
 
 
 	<footer class="footer">
